@@ -1,0 +1,213 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+.paging-me{
+    margin-left: 50%;
+}
+.paging-me li a{
+    color: #fff;
+}
+.paging-me li {
+    margin: 5px;
+}
+*{
+    direction: rtl;
+    font-family: 'B Roya';
+}
+.logo{
+    max-width: 100px;
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: 0px auto;
+}
+a{
+    color: #1d2222;
+    text-align: center;
+    font-size: large;
+    
+}
+.a-cat:hover{
+    text-decoration: none;
+    text-shadow: 1px 1px 5px white;
+    font-weight: bold;
+    color: #1d3e3f;
+   
+}
+a:hover{
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+.list-group-item:hover{
+    background-color:rgb(168, 201, 209);
+}
+.btn-primary{
+    background-color: #1d3e3f;
+}
+.btn-primary:checked{
+    background-color: #1d3e3f;
+}
+.main-other{
+    min-width: 100%;
+}
+.icon{
+    display:inline;
+    max-width: 40px;
+    min-width: 15px;
+}
+
+@media screen and (max-width:1000px){
+        .navbar-nav{
+            width: 100%;
+            
+        }
+    }
+ @media screen and (max-width:1500px){
+    
+    .navbar-nav{
+        width: 400px;
+    
+    } 
+}
+
+.nav-bar:hover{
+    border-left: 1px solid #00ADB5;
+    border-right: 1px solid #00ADB5;
+    border-radius: 10px;
+    background-image: linear-gradient(#343A40,#2E5155,#343A40);
+    
+    
+}
+.navbar-nav{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.nav-item{
+    width: 25%;
+    width: 200px; 
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+body {
+    padding-top: 56px;
+    background-color: #fcfcfc;
+  }
+  
+  @font-face {
+    font-family: roya;
+    src: url("../font/roya.ttf");
+  }
+  .p-20 {
+    padding: 20px !important;
+  }
+  
+  .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .short-info {
+    border-radius: 20px;
+  }
+  
+  .short-info p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16pt;
+  }
+  
+  .short-info button {
+    font-size: 16pt;
+  }
+  
+  .keywords {
+    border-radius: 10px;
+  }
+  
+  .keywords span {
+    background: rgb(36, 36, 36);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    transition: all ease 0.5s;
+    margin: 0 5px;
+  }
+  
+  .keywords span:hover{
+    background-color: blue;
+    cursor: default;
+  }
+  
+  .alternate-photo:hover{
+  cursor: pointer;
+  }
+  .btn-success:hover{
+      background-color:#214f52;
+  }
+  .card-text{
+      text-align: right;
+  }
+  .ml-auto{
+      text-align: center;
+  }
+  .tr{
+      width: 100%;
+      height: auto;
+      background-color: rgba(204, 253, 255, 0.151);
+      
+  }
+  .thead{
+      background-color: #199196;
+      color: #fcfcfc;
+      font-weight:bold;
+  }
+  .table{
+      text-align: center;
+      font-size: large;
+      border: 1px solid #1992963f;
+  }
+  
+  .td{
+    border: 1px solid #199196;
+  }
+  .td-h{
+    border: 1px solid #199196;
+  }
+  .other-page-container{
+      margin: 10%;
+      font-size:x-large;
+      text-align: justify;
+      background-color: #36707405;
+      padding: 5%;
+  }
+  .footer{
+      margin-top: 15%;
+      background-image: linear-gradient(#343A40,#2E5155);
+  }
+  .footer-info{
+      display: inline;
+      color: white;
+      text-align: right;
+
+  }
+.w-sliders{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
